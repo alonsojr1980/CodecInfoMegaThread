@@ -159,6 +159,2792 @@ CODECS information exported by Codec Info on several Android devices
   ```
 </details>
 
+* <details>
+  <summary>Mediatek 9200+ (XIAOMI 13T PRO)</summary>
+  <br>  
+  
+  ```
+  Codec list:
+ 
+  audio/3gpp (c2.android.amrnb.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1
+  Bitrate range: 4 Kbps — 12 Kbps
+  Sample rates: 8.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/3gpp (c2.android.amrnb.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1
+  Bitrate range: 4 Kbps — 12 Kbps
+  Sample rates: 8.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): false
+  Constant bitrate (CBR) with frame drops: false
+   
+  audio/ac3 (c2.dolby.eac3.decoder)
+  Hardware acceleration: false
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 6
+  Bitrate range: 32 Kbps — 640 Kbps
+  Sample rates: 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.active-device.value
+  vendor.dolby.dax-state.value
+  vendor.dolby.dialog-enhancement-gain.value
+  vendor.dolby.output-level.value
+  vendor.dolby.profile-index.value
+   
+  audio/ac4 (c2.dolby.ac4.decoder)
+  Hardware acceleration: false
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 16
+  Bitrate range: 16 Kbps — 2 Mbps
+  Sample rates: 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.active-device.value
+  vendor.dolby.dax-state.value
+  vendor.dolby.dialog-enhancement-gain.value
+  vendor.dolby.output-level.value
+  vendor.dolby.profile-index.value
+   
+  audio/alac (c2.mtk.alac.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 2 Gbps
+  Sample rates: 1 kHz — 384 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/amr-wb (c2.android.amrwb.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1
+  Bitrate range: 6 Kbps — 23 Kbps
+  Sample rates: 16.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/amr-wb (c2.android.amrwb.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1
+  Bitrate range: 6 Kbps — 23 Kbps
+  Sample rates: 16.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): false
+  Constant bitrate (CBR) with frame drops: false
+   
+  audio/eac3 (c2.dolby.eac3.decoder)
+  Hardware acceleration: false
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 32 Kbps — 6 Mbps
+  Sample rates: 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.active-device.value
+  vendor.dolby.dax-state.value
+  vendor.dolby.dialog-enhancement-gain.value
+  vendor.dolby.output-level.value
+  vendor.dolby.profile-index.value
+   
+  audio/eac3-joc (c2.dolby.eac3.decoder)
+  Hardware acceleration: false
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 16
+  Bitrate range: 32 Kbps — 6 Mbps
+  Sample rates: 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.active-device.value
+  vendor.dolby.dax-state.value
+  vendor.dolby.dialog-enhancement-gain.value
+  vendor.dolby.output-level.value
+  vendor.dolby.profile-index.value
+   
+  audio/flac (c2.android.flac.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 21 Mbps
+  Sample rates: 7.35 kHz — 192.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/flac (c2.android.flac.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 2
+  Bitrate range: 21 Mbps
+  Sample rates: 7.35 kHz — 192.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): true
+  Variable bitrate (VBR): false
+  Constant bitrate (CBR) with frame drops: false
+  Encoding complexity range: 0 — 8 (default: 5)
+   
+  audio/g711-alaw (c2.android.g711.alaw.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 6
+  Bitrate range: 64 Kbps
+  Sample rates: 8.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/g711-mlaw (c2.android.g711.mlaw.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 6
+  Bitrate range: 64 Kbps
+  Sample rates: 8.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/mp4a-latm (c2.android.aac.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 8 Kbps — 510 Kbps
+  Sample rates: 7.35, 8.0, 11.025, 12.0, 16.0, 22.05, 24.0, 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profiles:
+  AACObjectLC (0x2)
+  AACObjectHE (0x5)
+  AACObjectHE_PS (0x1D)
+  AACObjectLD (0x17)
+  AACObjectELD (0x27)
+  AACObjectERScalable (0x14)
+  AACObjectXHE (0x2A)
+   
+  audio/mp4a-latm (c2.android.aac.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 6
+  Bitrate range: 8 Kbps — 510 Kbps
+  Sample rates: 8.0, 11.025, 12.0, 16.0, 22.05, 24.0, 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profiles:
+  AACObjectLC (0x2)
+  AACObjectHE (0x5)
+  AACObjectHE_PS (0x1D)
+  AACObjectLD (0x17)
+  AACObjectELD (0x27)
+   
+  audio/mpeg (c2.android.mp3.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 2
+  Bitrate range: 8 Kbps — 320 Kbps
+  Sample rates: 8.0, 11.025, 12.0, 16.0, 22.05, 24.0, 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/mpeg (c2.mtk.mp3.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 2
+  Bitrate range: 8 Kbps — 320 Kbps
+  Sample rates: 8.0, 11.025, 12.0, 16.0, 22.05, 24.0, 32.0, 44.1, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/opus (c2.android.opus.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 6 Kbps — 510 Kbps
+  Sample rates: 8.0, 12.0, 16.0, 24.0, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/opus (c2.android.opus.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 2
+  Bitrate range: 6 Kbps — 510 Kbps
+  Sample rates: 8.0, 12.0, 16.0, 24.0, 48.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding complexity range: 0 — 10 (default: 5)
+   
+  audio/raw (c2.android.raw.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 12
+  Bitrate range: 10 Mbps
+  Sample rates: 8.0 kHz — 192.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/vorbis (c2.android.vorbis.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 32 Kbps — 500 Kbps
+  Sample rates: 8.0 kHz — 96.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: true (required: false)
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/x-adpcm-dvi-ima (c2.mtk.adpcm-dvi-ima.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 2 Gbps
+  Sample rates: 7.35 kHz — 192.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  audio/x-adpcm-ms (c2.mtk.adpcm-ms.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 32
+  Input channels: 1 — 8
+  Bitrate range: 2 Gbps
+  Sample rates: 7.35 kHz — 192.0 kHz
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+   
+  image/vnd.android.heic (c2.mtk.heif.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 16383x16383
+  Max bitrate: 64 Kbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  4K: 960,0 fps
+  8K: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: false
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+   
+  image/vnd.android.heic (c2.mtk.heif.encoder)
+  Hardware acceleration: true
+  Software-only: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 16
+  Max resolution: 16368x16368
+  Max bitrate: 64 Kbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  4K: 960,0 fps
+  8K: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): true
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding quality range: 0 — 100 (default: 50)
+  Supported vendor parameters:
+  vendor.mtk.ext.intfimpl.thiz.value
+  vendor.mtk.ext.venc.frame.level.qp.feature-on
+  vendor.mtk.ext.venc.frame.level.qp.value
+  vendor.mtk.ext.venc.hdr.feature-on
+  vendor.mtk.ext.venc.heif.feature-on
+  vendor.mtk.ext.venc.hfvr.feature-on
+  vendor.mtk.ext.venc.highquality.feature-on
+  vendor.mtk.ext.venc.qpmap.data
+  vendor.mtk.ext.venc.qpmap.feature-on
+  vendor.mtk.ext.venc.qpmap.frame-level-qp
+  vendor.mtk.ext.venc.qpmap.mode
+  vendor.mtk.ext.venc.smvr.feature-on
+  vendor.mtk.ext.venc.svr.feature-on
+  vendor.mtk.ext.venc.vilte.feature-on
+  vendor.mtk.ext.venc.wechat.feature-on
+  vendor.mtk.ext.venc.wfd.dummy-nal-enabled
+  vendor.mtk.ext.venc.wfd.feature-on
+  vendor.mtk.ext.venc.wfd.low-latency-enabled
+  vendor.mtk.ext.venc.wfd.slice-count
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.venc.adaptive.resolution.height
+  vendor.mtk.venc.adaptive.resolution.modified
+  vendor.mtk.venc.adaptive.resolution.width
+  vendor.mtk.venc.dynamic.qpbound.max
+  vendor.mtk.venc.dynamic.qpbound.min
+  vendor.mtk.venc.dynamic.ref.disabled.value
+  vendor.mtk.venc.dynamic.refp.frame.refp-type
+  vendor.mtk.venc.dynamic.refp.frame.refp-value
+  vendor.mtk.venc.dynamic.refp.frame.update
+  vendor.mtk.venc.force.pixel.format.value
+  vendor.mtk.venc.input.max.reference.count.value
+  vendor.mtk.venc.output.stream.info.is-single-nal
+  vendor.mtk.venc.qpdelta.value
+  vendor.mtk.venc.rotation.config.flip
+  vendor.mtk.venc.rotation.config.value
+   
+  video/3gpp (c2.android.h263.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 352x288
+  Max bitrate: 384 Kbps
+  Frame rate: 1 — 30 fps
+  Max frame rate per resolution:
+  144p: 30,0 fps
+  144p (YouTube): 30,0 fps
+  240p: 30,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  H263ProfileBaseline (0x1): H263Level40 (0x8)
+  H263ProfileISWV2 (0x8): H263Level40 (0x8)
+   
+  video/3gpp (c2.android.h263.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 176x144
+  Max bitrate: 128 Kbps
+  Frame rate: 1 — 30 fps
+  Max frame rate per resolution: 144p: 30,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profile levels: H263ProfileBaseline (0x1): H263Level40 (0x8)
+   
+  video/3gpp (c2.mtk.h263.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 720x576
+  Max bitrate: 16 Mbps
+  Frame rate: 1 — 60 fps
+  Max frame rate per resolution:
+  144p: 60,0 fps
+  144p (YouTube): 60,0 fps
+  240p: 60,0 fps
+  360p: 60,0 fps
+  360p (widescreen): 60,0 fps
+  480p: 60,0 fps
+  576p: 50,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels: H263ProfileBaseline (0x1): H263Level40 (0x8)
+   
+  video/apv (c2.android.apv.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1920
+  Max bitrate: 240 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels: Unknown (0xC000): Unknown (0xC30D)
+   
+  video/apv (c2.android.apv.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1920
+  Max bitrate: 240 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profile levels: Unknown (0xC000): Unknown (0xC30D)
+   
+  video/av01 (c2.android.av1-dav1d.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: true (required: false)
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 2048x2048
+  Max bitrate: 40 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 819,2 fps
+  240p (widescreen): 606,8 fps
+  360p: 356,2 fps
+  360p (widescreen): 267,1 fps
+  480p: 204,8 fps
+  480p (widescreen): 151,7 fps
+  576p: 151,7 fps
+  720p: 68,3 fps
+  1080p: 30,1 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level53 (0x8000)
+  AV1ProfileMain10HDR10 (0x1000): AV1Level53 (0x8000)
+  AV1ProfileMain10HDR10Plus (0x2000): AV1Level53 (0x8000)
+  AV1ProfileMain10 (0x2): AV1Level53 (0x8000)
+   
+  video/av01 (c2.android.av1.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: true (required: false)
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1080
+  Max bitrate: 60 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 576,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level53 (0x8000)
+  AV1ProfileMain10HDR10 (0x1000): AV1Level53 (0x8000)
+  AV1ProfileMain10HDR10Plus (0x2000): AV1Level53 (0x8000)
+  AV1ProfileMain10 (0x2): AV1Level53 (0x8000)
+   
+  video/av01 (c2.android.av1.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1920
+  Max bitrate: 20 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 881,5 fps
+  360p (widescreen): 661,1 fps
+  480p: 506,9 fps
+  480p (widescreen): 375,5 fps
+  576p: 375,5 fps
+  720p: 169,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: true (required: false)
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): true
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding complexity range: 0 — 5 (default: 0)
+  Encoding quality range: 0 — 100 (default: 80)
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level41 (0x200)
+  AV1ProfileMain10 (0x2): AV1Level41 (0x200)
+   
+  video/av01 (c2.mtk.av1.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 60 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  4K: 141,8 fps
+  8K: 35,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level6 (0x10000)
+  AV1ProfileMain10HDR10 (0x1000): AV1Level6 (0x10000)
+  AV1ProfileMain10 (0x2): AV1Level6 (0x10000)
+   
+  video/av01 (c2.mtk.av1.decoder.lowlatency)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: true (required: false)
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 60 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  4K: 141,8 fps
+  8K: 35,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level6 (0x10000)
+  AV1ProfileMain10HDR10 (0x1000): AV1Level6 (0x10000)
+  AV1ProfileMain10 (0x2): AV1Level6 (0x10000)
+   
+  video/av01 (c2.mtk.av1.decoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1920x1088
+  Max bitrate: 60 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: true (required: true)
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AV1ProfileMain8 (0x1): AV1Level6 (0x10000)
+  AV1ProfileMain10HDR10 (0x1000): AV1Level6 (0x10000)
+  AV1ProfileMain10 (0x2): AV1Level6 (0x10000)
+   
+  video/avc (c2.android.avc.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1088
+  Max bitrate: 40 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 712,3 fps
+  360p (widescreen): 534,3 fps
+  480p: 409,6 fps
+  480p (widescreen): 303,4 fps
+  576p: 303,4 fps
+  720p: 136,5 fps
+  1080p: 60,2 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  AVCProfileConstrainedBaseline (0x10000): AVCLevel52 (0x10000)
+  AVCProfileBaseline (0x1): AVCLevel52 (0x10000)
+  AVCProfileMain (0x2): AVCLevel52 (0x10000)
+  AVCProfileConstrainedHigh (0x80000): AVCLevel52 (0x10000)
+  AVCProfileHigh (0x8): AVCLevel52 (0x10000)
+   
+  video/avc (c2.android.avc.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1808x1808
+  Max bitrate: 12 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 409,1 fps
+  144p (YouTube): 281,3 fps
+  240p: 135,0 fps
+  240p (widescreen): 100,0 fps
+  360p: 58,7 fps
+  360p (widescreen): 44,0 fps
+  480p: 33,8 fps
+  480p (widescreen): 25,0 fps
+  576p: 25,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Intra refresh: true (required: false)
+  Quantization parameter bounds: true (required: false)
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel5 (0x4000)
+  AVCProfileConstrainedBaseline (0x10000): AVCLevel5 (0x4000)
+  AVCProfileMain (0x2): AVCLevel5 (0x4000)
+   
+  video/avc (c2.mtk.avc.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 720 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 512,0 fps
+  4K: 128,9 fps
+  8K: 32,2 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel6 (0x20000)
+  AVCProfileConstrainedBaseline (0x10000): AVCLevel6 (0x20000)
+  AVCProfileMain (0x2): AVCLevel6 (0x20000)
+  AVCProfileHigh (0x8): AVCLevel6 (0x20000)
+  AVCProfileHigh10 (0x10): AVCLevel6 (0x20000)
+   
+  video/avc (c2.mtk.avc.decoder.lowlatency)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: true (required: false)
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 720 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 512,0 fps
+  4K: 128,9 fps
+  8K: 32,2 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel6 (0x20000)
+  AVCProfileConstrainedBaseline (0x10000): AVCLevel6 (0x20000)
+  AVCProfileMain (0x2): AVCLevel6 (0x20000)
+  AVCProfileHigh (0x8): AVCLevel6 (0x20000)
+  AVCProfileHigh10 (0x10): AVCLevel6 (0x20000)
+   
+  video/avc (c2.mtk.avc.decoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1920x1088
+  Max bitrate: 720 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 512,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: true (required: true)
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel6 (0x20000)
+  AVCProfileConstrainedBaseline (0x10000): AVCLevel6 (0x20000)
+  AVCProfileMain (0x2): AVCLevel6 (0x20000)
+  AVCProfileHigh (0x8): AVCLevel6 (0x20000)
+  AVCProfileHigh10 (0x10): AVCLevel6 (0x20000)
+   
+  video/avc (c2.mtk.avc.encoder)
+  Hardware acceleration: true
+  Software-only: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 10
+  Max resolution: 7680x4320
+  Max bitrate: 720 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  4K: 128,9 fps
+  8K: 32,2 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Supported vendor parameters:
+  vendor.mtk.ext.intfimpl.thiz.value
+  vendor.mtk.ext.venc.frame.level.qp.feature-on
+  vendor.mtk.ext.venc.frame.level.qp.value
+  vendor.mtk.ext.venc.hdr.feature-on
+  vendor.mtk.ext.venc.heif.feature-on
+  vendor.mtk.ext.venc.hfvr.feature-on
+  vendor.mtk.ext.venc.highquality.feature-on
+  vendor.mtk.ext.venc.qpmap.data
+  vendor.mtk.ext.venc.qpmap.feature-on
+  vendor.mtk.ext.venc.qpmap.frame-level-qp
+  vendor.mtk.ext.venc.qpmap.mode
+  vendor.mtk.ext.venc.smvr.feature-on
+  vendor.mtk.ext.venc.svr.feature-on
+  vendor.mtk.ext.venc.vilte.feature-on
+  vendor.mtk.ext.venc.wechat.feature-on
+  vendor.mtk.ext.venc.wfd.dummy-nal-enabled
+  vendor.mtk.ext.venc.wfd.feature-on
+  vendor.mtk.ext.venc.wfd.low-latency-enabled
+  vendor.mtk.ext.venc.wfd.slice-count
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.venc.adaptive.resolution.height
+  vendor.mtk.venc.adaptive.resolution.modified
+  vendor.mtk.venc.adaptive.resolution.width
+  vendor.mtk.venc.dynamic.qpbound.max
+  vendor.mtk.venc.dynamic.qpbound.min
+  vendor.mtk.venc.dynamic.ref.disabled.value
+  vendor.mtk.venc.dynamic.refp.frame.refp-type
+  vendor.mtk.venc.dynamic.refp.frame.refp-value
+  vendor.mtk.venc.dynamic.refp.frame.update
+  vendor.mtk.venc.force.pixel.format.value
+  vendor.mtk.venc.input.max.reference.count.value
+  vendor.mtk.venc.output.stream.info.is-single-nal
+  vendor.mtk.venc.qpdelta.value
+  vendor.mtk.venc.rotation.config.flip
+  vendor.mtk.venc.rotation.config.value
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel6 (0x20000)
+  AVCProfileMain (0x2): AVCLevel6 (0x20000)
+  AVCProfileHigh (0x8): AVCLevel6 (0x20000)
+  AVCProfileHigh10 (0x10): AVCLevel6 (0x20000)
+   
+  video/avc (c2.mtk.avc.encoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 10
+  Max resolution: 3840x2176
+  Max bitrate: 720 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  4K: 128,9 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Supported vendor parameters:
+  vendor.mtk.ext.intfimpl.thiz.value
+  vendor.mtk.ext.venc.frame.level.qp.feature-on
+  vendor.mtk.ext.venc.frame.level.qp.value
+  vendor.mtk.ext.venc.hdr.feature-on
+  vendor.mtk.ext.venc.heif.feature-on
+  vendor.mtk.ext.venc.hfvr.feature-on
+  vendor.mtk.ext.venc.highquality.feature-on
+  vendor.mtk.ext.venc.qpmap.data
+  vendor.mtk.ext.venc.qpmap.feature-on
+  vendor.mtk.ext.venc.qpmap.frame-level-qp
+  vendor.mtk.ext.venc.qpmap.mode
+  vendor.mtk.ext.venc.smvr.feature-on
+  vendor.mtk.ext.venc.svr.feature-on
+  vendor.mtk.ext.venc.vilte.feature-on
+  vendor.mtk.ext.venc.wechat.feature-on
+  vendor.mtk.ext.venc.wfd.dummy-nal-enabled
+  vendor.mtk.ext.venc.wfd.feature-on
+  vendor.mtk.ext.venc.wfd.low-latency-enabled
+  vendor.mtk.ext.venc.wfd.slice-count
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.venc.adaptive.resolution.height
+  vendor.mtk.venc.adaptive.resolution.modified
+  vendor.mtk.venc.adaptive.resolution.width
+  vendor.mtk.venc.dynamic.qpbound.max
+  vendor.mtk.venc.dynamic.qpbound.min
+  vendor.mtk.venc.dynamic.ref.disabled.value
+  vendor.mtk.venc.dynamic.refp.frame.refp-type
+  vendor.mtk.venc.dynamic.refp.frame.refp-value
+  vendor.mtk.venc.dynamic.refp.frame.update
+  vendor.mtk.venc.force.pixel.format.value
+  vendor.mtk.venc.input.max.reference.count.value
+  vendor.mtk.venc.output.stream.info.is-single-nal
+  vendor.mtk.venc.qpdelta.value
+  vendor.mtk.venc.rotation.config.flip
+  vendor.mtk.venc.rotation.config.value
+  Profile levels:
+  AVCProfileBaseline (0x1): AVCLevel6 (0x20000)
+  AVCProfileMain (0x2): AVCLevel6 (0x20000)
+  AVCProfileHigh (0x8): AVCLevel6 (0x20000)
+  AVCProfileHigh10 (0x10): AVCLevel6 (0x20000)
+   
+  video/dolby-vision (c2.mtk.hevc.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4352
+  Max bitrate: 160 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  4K: 960,0 fps
+  8K: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  DolbyVisionProfileDvheStn (0x20): DolbyVisionLevel8k60 (0x800)
+  DolbyVisionProfileDvheDtr (0x10): DolbyVisionLevel8k60 (0x800)
+  DolbyVisionProfileDvheSt (0x100): DolbyVisionLevel8k60 (0x800)
+   
+  video/dolby-vision (c2.mtk.hevc.decoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1920x1088
+  Max bitrate: 64 Kbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: true (required: true)
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  DolbyVisionProfileDvheStn (0x20): DolbyVisionLevel8k60 (0x800)
+  DolbyVisionProfileDvheDtr (0x10): DolbyVisionLevel8k60 (0x800)
+  DolbyVisionProfileDvheSt (0x100): DolbyVisionLevel8k60 (0x800)
+   
+  video/hevc (c2.android.hevc.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1920x1088
+  Max bitrate: 5 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 853,3 fps
+  240p: 409,6 fps
+  240p (widescreen): 303,4 fps
+  360p: 182,0 fps
+  360p (widescreen): 136,5 fps
+  480p: 102,4 fps
+  480p (widescreen): 76,6 fps
+  576p: 75,9 fps
+  720p: 34,1 fps
+  1080p: 15,2 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  HEVCProfileMain (0x1): HEVCHighTierLevel52 (0x80000)
+  HEVCProfileMainStill (0x4): HEVCHighTierLevel52 (0x80000)
+   
+  video/hevc (c2.android.hevc.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 512x512
+  Max bitrate: 10 Mbps
+  Frame rate: 1 — 300 fps
+  Max frame rate per resolution:
+  144p: 300,0 fps
+  144p (YouTube): 300,0 fps
+  240p: 216,0 fps
+  240p (widescreen): 160,0 fps
+  360p: 96,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Intra refresh: false
+  Quantization parameter bounds: true (required: false)
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): true
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding complexity range: 0 — 10 (default: 0)
+  Encoding quality range: 0 — 100 (default: 80)
+  Profile levels:
+  HEVCProfileMain (0x1): HEVCMainTierLevel52 (0x40000)
+  HEVCProfileMainStill (0x4): HEVCMainTierLevel52 (0x40000)
+   
+  video/hevc (c2.mtk.hevc.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4352
+  Max bitrate: 480 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  4K: 257,9 fps
+  8K: 64,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  HEVCProfileMain (0x1): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMainStill (0x4): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10 (0x2): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10HDR10 (0x1000): HEVCHighTierLevel61 (0x800000)
+   
+  video/hevc (c2.mtk.hevc.decoder.lowlatency)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: true (required: false)
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4352
+  Max bitrate: 480 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  4K: 257,9 fps
+  8K: 64,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  HEVCProfileMain (0x1): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMainStill (0x4): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10 (0x2): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10HDR10 (0x1000): HEVCHighTierLevel61 (0x800000)
+   
+  video/hevc (c2.mtk.hevc.decoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1920x1088
+  Max bitrate: 480 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: true (required: true)
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  HEVCProfileMain (0x1): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMainStill (0x4): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10 (0x2): HEVCHighTierLevel61 (0x800000)
+  HEVCProfileMain10HDR10 (0x1000): HEVCHighTierLevel61 (0x800000)
+   
+  video/hevc (c2.mtk.hevc.encoder)
+  Hardware acceleration: true
+  Software-only: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 10
+  Max resolution: 7680x4320
+  Max bitrate: 480 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  4K: 257,9 fps
+  8K: 64,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): true
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding quality range: 0 — 100 (default: 50)
+  Supported vendor parameters:
+  vendor.mtk.ext.intfimpl.thiz.value
+  vendor.mtk.ext.venc.frame.level.qp.feature-on
+  vendor.mtk.ext.venc.frame.level.qp.value
+  vendor.mtk.ext.venc.hdr.feature-on
+  vendor.mtk.ext.venc.heif.feature-on
+  vendor.mtk.ext.venc.hfvr.feature-on
+  vendor.mtk.ext.venc.highquality.feature-on
+  vendor.mtk.ext.venc.qpmap.data
+  vendor.mtk.ext.venc.qpmap.feature-on
+  vendor.mtk.ext.venc.qpmap.frame-level-qp
+  vendor.mtk.ext.venc.qpmap.mode
+  vendor.mtk.ext.venc.smvr.feature-on
+  vendor.mtk.ext.venc.svr.feature-on
+  vendor.mtk.ext.venc.vilte.feature-on
+  vendor.mtk.ext.venc.wechat.feature-on
+  vendor.mtk.ext.venc.wfd.dummy-nal-enabled
+  vendor.mtk.ext.venc.wfd.feature-on
+  vendor.mtk.ext.venc.wfd.low-latency-enabled
+  vendor.mtk.ext.venc.wfd.slice-count
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.venc.adaptive.resolution.height
+  vendor.mtk.venc.adaptive.resolution.modified
+  vendor.mtk.venc.adaptive.resolution.width
+  vendor.mtk.venc.dynamic.qpbound.max
+  vendor.mtk.venc.dynamic.qpbound.min
+  vendor.mtk.venc.dynamic.ref.disabled.value
+  vendor.mtk.venc.dynamic.refp.frame.refp-type
+  vendor.mtk.venc.dynamic.refp.frame.refp-value
+  vendor.mtk.venc.dynamic.refp.frame.update
+  vendor.mtk.venc.force.pixel.format.value
+  vendor.mtk.venc.input.max.reference.count.value
+  vendor.mtk.venc.output.stream.info.is-single-nal
+  vendor.mtk.venc.qpdelta.value
+  vendor.mtk.venc.rotation.config.flip
+  vendor.mtk.venc.rotation.config.value
+  Profile levels: HEVCProfileMain (0x1): HEVCHighTierLevel61 (0x800000)
+   
+  video/hevc (c2.mtk.hevc.encoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 10
+  Max resolution: 3840x2160
+  Max bitrate: 480 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  4K: 257,9 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): true
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Encoding quality range: 0 — 100 (default: 50)
+  Supported vendor parameters:
+  vendor.mtk.ext.intfimpl.thiz.value
+  vendor.mtk.ext.venc.frame.level.qp.feature-on
+  vendor.mtk.ext.venc.frame.level.qp.value
+  vendor.mtk.ext.venc.hdr.feature-on
+  vendor.mtk.ext.venc.heif.feature-on
+  vendor.mtk.ext.venc.hfvr.feature-on
+  vendor.mtk.ext.venc.highquality.feature-on
+  vendor.mtk.ext.venc.qpmap.data
+  vendor.mtk.ext.venc.qpmap.feature-on
+  vendor.mtk.ext.venc.qpmap.frame-level-qp
+  vendor.mtk.ext.venc.qpmap.mode
+  vendor.mtk.ext.venc.smvr.feature-on
+  vendor.mtk.ext.venc.svr.feature-on
+  vendor.mtk.ext.venc.vilte.feature-on
+  vendor.mtk.ext.venc.wechat.feature-on
+  vendor.mtk.ext.venc.wfd.dummy-nal-enabled
+  vendor.mtk.ext.venc.wfd.feature-on
+  vendor.mtk.ext.venc.wfd.low-latency-enabled
+  vendor.mtk.ext.venc.wfd.slice-count
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.venc.adaptive.resolution.height
+  vendor.mtk.venc.adaptive.resolution.modified
+  vendor.mtk.venc.adaptive.resolution.width
+  vendor.mtk.venc.dynamic.qpbound.max
+  vendor.mtk.venc.dynamic.qpbound.min
+  vendor.mtk.venc.dynamic.ref.disabled.value
+  vendor.mtk.venc.dynamic.refp.frame.refp-type
+  vendor.mtk.venc.dynamic.refp.frame.refp-value
+  vendor.mtk.venc.dynamic.refp.frame.update
+  vendor.mtk.venc.force.pixel.format.value
+  vendor.mtk.venc.input.max.reference.count.value
+  vendor.mtk.venc.output.stream.info.is-single-nal
+  vendor.mtk.venc.qpdelta.value
+  vendor.mtk.venc.rotation.config.flip
+  vendor.mtk.venc.rotation.config.value
+  Profile levels: HEVCProfileMain (0x1): HEVCHighTierLevel61 (0x800000)
+   
+  video/mp4v-es (c2.android.mpeg4.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 352x288
+  Max bitrate: 384 Kbps
+  Frame rate: 12 — 60 fps
+  Max frame rate per resolution:
+  144p: 60,0 fps
+  144p (YouTube): 60,0 fps
+  240p: 39,6 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels: MPEG4ProfileSimple (0x1): MPEG4Level6 (0x100)
+   
+  video/mp4v-es (c2.android.mpeg4.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 176x144
+  Max bitrate: 64 Kbps
+  Frame rate: 12 — 60 fps
+  Max frame rate per resolution: 144p: 15,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Intra refresh: false
+  Quantization parameter bounds: false
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): false
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profile levels: MPEG4ProfileSimple (0x1): MPEG4Level2 (0x8)
+   
+  video/mp4v-es (c2.mtk.mpeg4.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1344x1088
+  Max bitrate: 12 Mbps
+  Frame rate: 12 — 60 fps
+  Max frame rate per resolution:
+  144p: 60,0 fps
+  144p (YouTube): 60,0 fps
+  240p: 60,0 fps
+  240p (widescreen): 60,0 fps
+  360p: 60,0 fps
+  360p (widescreen): 60,0 fps
+  480p: 60,0 fps
+  480p (widescreen): 60,0 fps
+  576p: 60,0 fps
+  720p: 30,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  MPEG4ProfileSimple (0x1): MPEG4Level6 (0x100)
+  MPEG4ProfileAdvancedSimple (0x8000): MPEG4Level6 (0x100)
+   
+  video/x-vnd.on2.vp8 (c2.android.vp8.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 2048x2048
+  Max bitrate: 40 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 833,3 fps
+  480p (widescreen): 617,3 fps
+  576p: 617,3 fps
+  720p: 277,8 fps
+  1080p: 122,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels: VP8ProfileMain (0x1): VP8Level_Version0 (0x1)
+   
+  video/x-vnd.on2.vp8 (c2.android.vp8.encoder)
+  Hardware acceleration: false
+  Software-only: true
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 720x720
+  Max bitrate: 20 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  576p: 960,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  Intra refresh: false
+  Quantization parameter bounds: true (required: false)
+  Exporting encoding statistics: false
+  HDR editing: false
+  HLG editing: false
+  Region of interest encoding: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Bitrate modes:
+  Constant bitrate (CBR): true
+  Constant quality (CQ): false
+  Variable bitrate (VBR): true
+  Constant bitrate (CBR) with frame drops: false
+  Profile levels: VP8ProfileMain (0x1): VP8Level_Version0 (0x1)
+   
+  video/x-vnd.on2.vp9 (c2.android.vp9.decoder)
+  Hardware acceleration: false
+  Software-only: true
+  Low latency decoding: false
+  Codec provider: Android platform
+  Max supported instances: 32
+  Max resolution: 1280x1280
+  Max bitrate: 5 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 750,0 fps
+  240p: 360,0 fps
+  240p (widescreen): 266,7 fps
+  360p: 156,5 fps
+  360p (widescreen): 117,4 fps
+  480p: 90,0 fps
+  480p (widescreen): 66,7 fps
+  576p: 66,7 fps
+  720p: 30,0 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: true (required: false)
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Profile levels:
+  VP9Profile0 (0x1): VP9Level5 (0x100)
+  VP9Profile2 (0x4): VP9Level5 (0x100)
+  VP9Profile2HDR (0x1000): VP9Level5 (0x100)
+  VP9Profile2HDR10Plus (0x4000): VP9Level5 (0x100)
+   
+  video/x-vnd.on2.vp9 (c2.mtk.vp9.decoder)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 180 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  4K: 141,8 fps
+  8K: 35,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  VP9Profile0 (0x1): VP9Level6 (0x800)
+  VP9Profile1 (0x2): VP9Level6 (0x800)
+  VP9Profile2 (0x4): VP9Level6 (0x800)
+  VP9Profile2HDR (0x1000): VP9Level6 (0x800)
+   
+  video/x-vnd.on2.vp9 (c2.mtk.vp9.decoder.lowlatency)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: true (required: false)
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 8192x4320
+  Max bitrate: 180 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  4K: 141,8 fps
+  8K: 35,5 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: false
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  VP9Profile0 (0x1): VP9Level6 (0x800)
+  VP9Profile1 (0x2): VP9Level6 (0x800)
+  VP9Profile2 (0x4): VP9Level6 (0x800)
+  VP9Profile2HDR (0x1000): VP9Level6 (0x800)
+   
+  video/x-vnd.on2.vp9 (c2.mtk.vp9.decoder.secure)
+  Hardware acceleration: true
+  Software-only: false
+  Low latency decoding: false
+  Codec provider: Device vendor / OEM
+  Max supported instances: 15
+  Max resolution: 1920x1088
+  Max bitrate: 180 Mbps
+  Frame rate: 0 — 960 fps
+  Max frame rate per resolution:
+  144p: 960,0 fps
+  144p (YouTube): 960,0 fps
+  240p: 960,0 fps
+  240p (widescreen): 960,0 fps
+  360p: 960,0 fps
+  360p (widescreen): 960,0 fps
+  480p: 960,0 fps
+  480p (widescreen): 960,0 fps
+  576p: 960,0 fps
+  720p: 960,0 fps
+  1080p: 567,4 fps
+  Color profiles:
+  COLOR_FormatSurface (0x7F000789)
+  COLOR_FormatYUV420Flexible (0x7F420888)
+  COLOR_FormatYUV420PackedPlanar (0x14)
+  COLOR_FormatYUV420PackedSemiPlanar (0x27)
+  COLOR_FormatYUV420Planar (0x13)
+  COLOR_FormatYUV420SemiPlanar (0x15)
+  COLOR_FormatYUVP010 (0x36)
+  Adaptive playback: true (required: false)
+  Partial frames queuing: false
+  Secure playback decryption: true (required: true)
+  Can detach the surface when in Surface mode: true (required: false)
+  Dynamic change of color aspects: false
+  Dynamic timestamp: false
+  Multiple access units: false
+  Tunneled playback: false
+  Partial access units per input buffer: false
+  Supported vendor parameters:
+  vendor.dolby.codec.transfer.value
+  vendor.mtk.ext.vdec.force.output.cc.value
+  vendor.mtk.ext.vdec.hdr.feature-on
+  vendor.mtk.ext.vdec.hdr2sdr.feature-on
+  vendor.mtk.ext.vdec.heif.feature-on
+  vendor.mtk.ext.vdec.svp.feature-on
+  vendor.mtk.ext.vdec.vilte.feature-on
+  vendor.mtk.ext.vdec.vpp.disabled.value
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.dolby.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.green.check.feature-on
+  vendor.mtk.ext.vdec.vpp.green.check.pixel-format
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-copy
+  vendor.mtk.ext.vdec.vpp.motion.intpl.fallback-level
+  vendor.mtk.ext.vdec.vpp.motion.intpl.feature-on
+  vendor.mtk.ext.vdec.vpp.motion.intpl.max-conversion-rate
+  vendor.mtk.ext.vdec.vpp.motion.intpl.pixel-format
+  vendor.mtk.ext.vdec.vpp.quality.tuner.feature-on
+  vendor.mtk.ext.vdec.vpp.quality.tuner.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.domain-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.feature-on
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-height
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.max-frame-width
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.pixel-format
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.quality-index
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.scale-ratio
+  vendor.mtk.ext.vdec.vpp.resolution.scaler.wechatVcall-on
+  vendor.mtk.intfimpl.thiz.value
+  vendor.mtk.output.buffer.alloc.config.usage
+  vendor.mtk.vdec.bq.guard.interval.time.value
+  vendor.mtk.vdec.buffer.fetch.timeout.ms.value
+  vendor.mtk.vdec.cpu.boost.mode.value
+  vendor.mtk.vdec.decode.warning.mode.value
+  vendor.mtk.vdec.dolby.downgrade.mode.value
+  vendor.mtk.vdec.force.pixel.format.value
+  vendor.mtk.vdec.thumbnail.mode.value
+  Profile levels:
+  VP9Profile0 (0x1): VP9Level6 (0x800)
+  VP9Profile1 (0x2): VP9Level6 (0x800)
+  VP9Profile2 (0x4): VP9Level6 (0x800)
+  VP9Profile2HDR (0x1000): VP9Level6 (0x800)
+ 
+  ```
+</details>
+
+
 ## EXYNOS
 * <details>
   <summary>PIXEL 6</summary>
@@ -2209,57 +4995,5 @@ CODECS information exported by Codec Info on several Android devices
   VP9Profile2 (0x4): VP9Level51 (0x200)
   VP9Profile2HDR (0x1000): VP9Level51 (0x200)
   VP9Profile2HDR10Plus (0x4000): VP9Level51 (0x200)
-  
-  
-  DRM list:
-  
-  Apple FairPlay (unofficial; Netflix) (UUID: {29701fe4-3cc7-4a34-8c5b-ae90c7439a47})
-  UUID: 29701fe4-3cc7-4a34-8c5b-ae90c7439a47
-  Vendor: com.google.android.widevine
-  Version: 19.0.1@AV1A.240725.002
-  Algorithms: AES/CBC/NoPadding,HmacSHA256
-  Device unique ID: d557d161e9e6942a89cab3ad252e15427a617b9a7d94e33e57d7374119331db1
-  Current HDCP level: No digital output (implicitly secure)
-  Max HDCP level supported: No digital output (implicitly secure)
-  Max number of sessions: 50
-  
-  ClearKey (Common PSSH box format) (UUID: {1077efec-c0b2-4d02-ace3-3c1e52e2fb4b})
-  UUID: 1077efec-c0b2-4d02-ace3-3c1e52e2fb4b
-  Vendor: Google
-  Version: 14
-  Current HDCP level: Unprotected
-  Max HDCP level supported: No digital output (implicitly secure)
-  Max number of sessions: 10
-  
-  ClearKey (DASH-IF) (UUID: {e2719d58-a985-b3c9-781a-b030af78d30e})
-  UUID: e2719d58-a985-b3c9-781a-b030af78d30e
-  Vendor: Google
-  Version: 14
-  Current HDCP level: Unprotected
-  Max HDCP level supported: No digital output (implicitly secure)
-  Max number of sessions: 10
-  
-  Widevine CDM (UUID: {edef8ba9-79d6-4ace-a3c8-27dcd51d21ed})
-  UUID: edef8ba9-79d6-4ace-a3c8-27dcd51d21ed
-  Vendor: com.google.android.widevine
-  Version: 19.0.1@AV1A.240725.002
-  Algorithms: AES/CBC/NoPadding,HmacSHA256
-  Device unique ID: d557d161e9e6942a89cab3ad252e15427a617b9a7d94e33e57d7374119331db1
-  Max security level: L1
-  System ID: 26754
-  Privacy mode: disable
-  Session sharing: disable
-  Usage reporting supported: True
-  OEM Crypto API version: 19
-  Current HDCP level: No digital output (implicitly secure)
-  Max HDCP level supported: No digital output (implicitly secure)
-  Number of open sessions: 0
-  Max number of sessions: 50
-  Current System Renewability Message (SRM) version: None
-  System Renewability Message (SRM) update supported: False
-  Resource rating tier: 3
-  Hash function supported for Full Decrypt Path Testing: 1 (CRC32)
-  Provisioning unique ID: 2aa82e9e16196bd576354c52dad1eabd859e8465826b1cc1a828c8bee6cce24e
-
   ```
 </details>
